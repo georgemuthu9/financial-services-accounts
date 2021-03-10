@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Profile xmlns="http://soap.sforce.com/2006/04/metadata">
+    <classAccesses>
+        <apexClass>FinancialServicesAccountsCountroller</apexClass>
+        <enabled>false</enabled>
+    </classAccesses>
+    <custom>true</custom>
+    <tabVisibilities>
+        <tab>Financial_Services_Accounts</tab>
+        <visibility>DefaultOn</visibility>
+    </tabVisibilities>
+    <userLicense>Salesforce</userLicense>
+    <objectPermissions>
+        <allowCreate>true</allowCreate>
+        <allowDelete>false</allowDelete>
+        <allowEdit>true</allowEdit>
+        <allowRead>true</allowRead>
+        <modifyAllRecords>false</modifyAllRecords>
+        <object>Account</object>
+        <viewAllRecords>false</viewAllRecords>
+    </objectPermissions>
+</Profile>
